@@ -580,7 +580,7 @@ p {
 .navbar1 {
   overflow: hidden;
   right: 45%;
-  background-color: #d4e8f2;
+  background-color: #b1d0e0;
   position: fixed; /* Set the navbar to fixed position */
   bottom: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -588,7 +588,7 @@ p {
 .navbar2 {
   overflow: hidden;
   left: 45%;
-  background-color: #d4e8f2;
+  background-color: #b1d0e0;
   position: fixed; /* Set the navbar to fixed position */
   bottom: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
