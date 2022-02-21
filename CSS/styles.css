@@ -8,7 +8,7 @@ body {
 }
 
 a {
-  color: #1A374D;
+  color: #052d2e;
   text-decoration: none;
   background-color: #c2d5e7;
 }
@@ -21,29 +21,32 @@ a:hover {
 h1 {
   margin: 0 auto 0 auto;
   font-family: 'Sacramento', cursive;
-  font-size: 562%;
-  color: #1A374D;
+  font-size: 600%;
+  color: #052d2e;
 }
 
 h2 {
   margin: 0 auto 0 auto;
-  font-family: 'Comic Sans MS', sans-serif;
-  font-size: 250%;
-  color: #1A374D;
+  font-family: 'Georgia' sans-serif;
+  font-size: 300%;
+  color: #052d2e;
 }
 
 h3 {
-  font-family: 'Comic Sans MS', sans-serif;
-  color: #11999E;
+  font-family: 'Georgia' sans-serif;
+  font-size: 200%;
+  color: #0a5a5c;
+  margin-left: 7%;
+  margin-right:7%;
 }
 
 h4 {
-  font-family: 'Comic Sans MS', sans-serif;
+  font-family:  'Georgia' sans-serif;
   font-size: 200%;
-  color: #1A374D;
-  font-weight: normal;
+  color: #052d2e;
   padding-left: 5%;
   padding-right: 5%;
+  padding-top: 6%;
 }
 
 hr {
@@ -60,28 +63,32 @@ img {
 }
 
 th {
-  font-family: 'Comic Sans MS', sans-serif;
+  font-family: 'Georgia' sans-serif;
   font-size: 110%;
-  color: #11999E;
+  color: #0a5a5c;
 }
 
 td {
-  font-family: 'Comic Sans MS', sans-serif;
-  color: #11999E;
+  font-family: 'Georgia' sans-serif;
+  color: #0a5a5c;
 }
 
 p {
-  font-family: 'Comic Sans MS', sans-serif;
-  color: #11999E;
+  font-family: 'Georgia' sans-serif;
+  color: #0a5a5c;
   padding-left: 5%;
   padding-right: 5%;
+  font-size: 1.5rem;
 }
-
+li {
+  margin-top: 5%;
+  font-size: 1.5rem;
+}
 /* ----------------------------CLASS Selctors------------------------------
 ----------------------------CLASS Selctors------------------------------ */
 /* ------------------------------------------------------------------------ */
 .top-container {
-  background-color: #b1d0e0;
+  background-color: #b6d3e2;
   padding-top: 1%;
   padding-bottom: 5%
 }
@@ -109,11 +116,13 @@ p {
 }
 
 .profile-oneliner {
-  color: #11999E;
+  color: #0a5a5c;
   font-weight: bold;
   padding: 0 6.25%;
 }
-
+.desig{
+  padding-top:1%;
+}
 .tuxedo-person {
   width: 20%;
 }
@@ -155,22 +164,26 @@ p {
 }
 
 .execsum-points {
-  color: #11999E;
+  color: #0a5a5c;
   text-align: left;
+  font-size:1.5rem;
+  padding-top: 2rem;
 }
 
 .profile-table {
-  margin: 0 4%;
+  margin: 5% 4%;
 }
 
 .competency-table {
   padding-left: 5%;
   padding-right: 5%;
+  margin-bottom: 10%;
 }
 
 .table-header {
-  color: #1A374D;
+  color: #052d2e;
   text-align:center;
+  font-size: 2rem;
 }
 
 .table-width {
@@ -185,7 +198,8 @@ p {
 
 /* ------------------------------------------------------------------------ */
 .bottom-container {
-  background-color: #b1d0e0;
+  background-color: #b6d3e2;
+  margin-top: 10%;
   padding-top: 5%;
   padding-bottom: 5%
 }
@@ -240,13 +254,13 @@ p {
 
 .page-header {
   margin: 5rem auto 5rem auto;
-  font-family: 'Comic Sans MS', sans-serif;
+  font-family: 'Georgia' sans-serif;
   font-size: 2.5rem;
-  color: #1A374D;
+  color: #052d2e;
 }
 
 .execsum-points-stars {
-  color: #11999E;
+  color: #0a5a5c;
   text-align: center;
   width: 15%;
 }
@@ -302,7 +316,7 @@ p {
 
 .competency_image8 {
   position: relative;
-  right: 2%;
+  margin-right: 4%;
   left: 5%;
   width: 15%
 }
@@ -359,17 +373,18 @@ p {
 }
 
 .cr {
-  font-family: 'Comic Sans MS', sans-serif;
-  color: #11999E;
+  font-family: 'Georgia' sans-serif;
+  color: #0a5a5c;
   padding-left: 0;
   padding-right: 0;
+  font-size:1rem;
 }
 
 .ulist {
   text-align: left;
-  font-family: 'Comic Sans MS', sans-serif;
-  font-size: 1rem;
-  color: #11999E;
+  font-family: 'Georgia' sans-serif;
+  font-size: 1.5rem;
+  color: #0a5a5c;
   padding-left: 5rem;
   padding-right: 5rem;
   list-style-type: square
@@ -378,6 +393,7 @@ p {
 .form-design {
   padding-left: 5rem;
   padding-right: 5rem;
+  font-size: 1.5rem;
 }
 
 .form-cell {
@@ -516,7 +532,7 @@ p {
 .ocs3 {
   position: relative;
   left: 2%;
-  width: 7%
+  width: 10%
 }
 
 .cert1 {
@@ -557,7 +573,7 @@ p {
 
 .pers1 {
   position: relative;
-  left: 2%;
+  left: 20%;
   width: 30%
 }
 
@@ -580,7 +596,7 @@ p {
 .navbar1 {
   overflow: hidden;
   right: 45%;
-  background-color: #b1d0e0;
+  /* background-color: #b1d0e0; */
   position: fixed; /* Set the navbar to fixed position */
   bottom: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -588,7 +604,7 @@ p {
 .navbar2 {
   overflow: hidden;
   left: 45%;
-  background-color: #b1d0e0;
+  /* background-color: #b1d0e0; */
   position: fixed; /* Set the navbar to fixed position */
   bottom: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -596,7 +612,7 @@ p {
 .keywords {
   position: absolute;
   right: 10rem;
-  top: 13rem;
+  top: 16rem;
   width: 50%
 }
 
