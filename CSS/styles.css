@@ -1,0 +1,620 @@
+/* ----------------------------ID Selctors------------------------------ */
+
+/* ----------------------------TAG Selctors------------------------------ */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+a {
+  color: #052d2e;
+  text-decoration: none;
+  background-color: #c2d5e7;
+}
+
+a:hover {
+  color: white;
+  background: #006400;
+}
+
+h1 {
+  margin: 0 auto 0 auto;
+  /* font-family: 'Sacramento', cursive; */
+  font-size: 600%;
+  color: #052d2e;
+}
+
+h2 {
+  margin: 0 auto 0 auto;
+  font-family: 'Georgia' sans-serif;
+  font-size: 300%;
+  color: #052d2e;
+}
+
+h3 {
+  font-family: 'Georgia' sans-serif;
+  font-size: 200%;
+  color: #0a5a5c;
+  margin-left: 7%;
+  margin-right:7%;
+}
+
+h4 {
+  font-family:  'Georgia' sans-serif;
+  font-size: 200%;
+  color: #052d2e;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 6%;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: .125rem;
+  border-color: #008080;
+  width: 10%;
+}
+
+img {
+  width: 7%;
+  height: auto;
+}
+
+th {
+  font-family: 'Georgia' sans-serif;
+  font-size: 110%;
+  color: #0a5a5c;
+}
+
+td {
+  font-family: 'Georgia' sans-serif;
+  color: #0a5a5c;
+}
+
+p {
+  font-family: 'Georgia' sans-serif;
+  color: #0a5a5c;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.5rem;
+}
+li {
+  margin-top: 5%;
+  font-size: 1.2rem;
+}
+/* ----------------------------CLASS Selctors------------------------------
+----------------------------CLASS Selctors------------------------------ */
+/* ------------------------------------------------------------------------ */
+.top-container {
+  background-color: #b6d3e2;
+  padding-top: 1%;
+  padding-bottom: 5%
+}
+
+.experience {
+  position: relative;
+  left: 40%;
+  width: 20%;
+  height: auto;
+}
+
+.cartwheel-person {
+  position: relative;
+  right: 25%;
+}
+
+.weightlifting-person {
+  position: relative;
+  right: 40%;
+}
+
+.lotus-person {
+  position: relative;
+  left: 40%;
+}
+
+.profile-oneliner {
+  color: #0a5a5c;
+  font-weight: bold;
+  padding: 0 6.25%;
+}
+.desig{
+  padding-top:1%;
+}
+.tuxedo-person {
+  width: 20%;
+}
+
+/* ------------------------------------------------------------------------ */
+.middle-container {
+  padding-top: 5%;
+}
+
+.skier {
+  position: relative;
+  right: 5%;
+}
+
+.snowboarder {
+  position: relative;
+  left: 5%;
+}
+
+.heading-pic {
+  width: 10%;
+  position: relative;
+}
+
+.handball-person {
+  position: relative;
+  right: 15%;
+}
+
+.jugglery-person {
+  position: relative;
+  left: 15%;
+}
+
+.table-image {
+  width: 15%;
+  height: auto;
+  padding-right: 3%;
+}
+
+.execsum-points {
+  color: #0a5a5c;
+  text-align: left;
+  font-size:1.5rem;
+  padding-top: 2rem;
+}
+
+.profile-table {
+  margin: 5% 4%;
+}
+
+.competency-table {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 10%;
+}
+
+.table-header {
+  color: #052d2e;
+  text-align:center;
+  font-size: 1.2rem;
+}
+
+.table-width {
+  width: 90%;
+  margin: auto 4%;
+}
+
+.tick {
+  width: 4%;
+  height: auto;
+}
+
+/* ------------------------------------------------------------------------ */
+.bottom-container {
+  background-color: #b6d3e2;
+  margin-top: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%
+}
+
+.waterpolo-man {
+  position: relative;
+  left: 45%;
+}
+
+.swimming-man {
+  position: relative;
+  right: 45%;
+}
+
+.competencies {
+  position: relative;
+  right: 3%;
+}
+
+.dsml {
+  position: relative;
+  left: 3%;
+}
+
+.work {
+  position: relative;
+  right: 3%;
+}
+
+.education {
+  position: relative;
+  left: 3%;
+}
+
+.contact {
+  position: relative;
+  right: 3%;
+}
+
+/* ------------------------------------------------------------------------ */
+.target {
+  position: absolute;
+  right: 7%;
+  top: 9%;
+}
+
+.growth {
+  position: absolute;
+  left: 7%;
+  top: 9%;
+}
+
+.page-header {
+  margin: 5rem auto 5rem auto;
+  font-family: 'Georgia' sans-serif;
+  font-size: 2.5rem;
+  color: #052d2e;
+}
+
+.execsum-points-stars {
+  color: #0a5a5c;
+  text-align: center;
+  width: 15%;
+}
+
+.competency_image1 {
+  position: relative;
+  left: 2%;
+  right: 2%;
+  width: 15%
+}
+
+.competency_image2 {
+  position: relative;
+  left: 2%;
+  right: 2%;
+  width: 20%;
+}
+
+.competency_image3 {
+  position: relative;
+  left: 2%;
+  right: 2%;
+  width: 15%
+}
+
+.competency_image4 {
+  position: relative;
+  left: 2%;
+  right: 2%;
+  width: 15%
+}
+
+.competency_image5 {
+  position: relative;
+  left: 2%;
+  right: 2%;
+  width: 15%
+}
+
+.competency_image6 {
+  position: relative;
+  left: 2%;
+  right: 2%;
+  width: 15%
+}
+
+.competency_image7 {
+  position: relative;
+  left: 2%;
+  right: 2%;
+  width: 15%
+}
+
+.competency_image8 {
+  position: relative;
+  margin-right: 4%;
+  left: 5%;
+  width: 15%
+}
+
+.competency_image9 {
+  position: relative;
+  left: 2%;
+  right: 2%;
+  width: 15%
+}
+
+.competency_image10 {
+  position: relative;
+  right: 2%;
+  left: 5%;
+  width: 15%
+}
+
+.competency_image11 {
+  position: relative;
+  left: 2%;
+  width: 15%
+}
+
+.competency_image12 {
+  position: relative;
+  left: 2%;
+  right: 2%;
+  width: 15%
+}
+
+.competency_image13 {
+  position: relative;
+  width: 20%
+}
+
+.server {
+  position: absolute;
+  left: 2%;
+  right: 2%;
+  top: 28rem;
+}
+
+.portfolio {
+  position: absolute;
+  left: 40rem;
+  top: 27rem;
+}
+
+.firewall {
+  position: absolute;
+  right: 14rem;
+  top: 40rem;
+}
+
+.cr {
+  font-family: 'Georgia' sans-serif;
+  color: #0a5a5c;
+  padding-left: 0;
+  padding-right: 0;
+  font-size:1rem;
+}
+
+.ulist {
+  text-align: left;
+  font-family: 'Georgia' sans-serif;
+  font-size: 1.5rem;
+  color: #0a5a5c;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  list-style-type: square
+}
+
+.form-design {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  font-size: 1.5rem;
+}
+
+.form-cell {
+  text-align: left;
+}
+
+.combined-image {
+  position: absolute;
+  left: 5rem;
+  right: 5rem;
+  top: 55rem;
+  width: 90%;
+}
+
+.hcl1 {
+  position: relative;
+  left: 2%;
+  right: 2%;
+  width: 7%
+}
+
+.hcl2 {
+  position: relative;
+  right: 2%;
+  width: 7%
+}
+
+.hcl3 {
+  position: relative;
+  left: 2%;
+  width: 7%
+}
+
+.hcl4 {
+  position: relative;
+  right: 2%;
+  width: 7%
+}
+
+.hcl5 {
+  position: relative;
+  left: 2%;
+  width: 7%
+}
+
+.ita1 {
+  position: relative;
+  left: 2%;
+  width: 7%
+}
+
+.ita2 {
+  position: relative;
+  right: 2%;
+  width: 7%
+}
+
+.ita3 {
+  position: relative;
+  left: 2%;
+  width: 7%
+}
+
+.ita4 {
+  position: relative;
+  right: 2%;
+  width: 7%
+}
+
+.mst1 {
+  position: relative;
+  left: 2%;
+  width: 7%
+}
+
+.mst2 {
+  position: relative;
+  right: 2%;
+  width: 7%
+}
+
+.mst3 {
+  position: relative;
+  left: 2%;
+  width: 7%
+}
+
+.fits1 {
+  position: relative;
+  left: 2%;
+  width: 7%
+}
+
+.fits2 {
+  position: relative;
+  right: 2%;
+  width: 7%
+}
+
+.fits3 {
+  position: relative;
+  left: 2%;
+  width: 7%
+}
+
+.zbm1 {
+  position: relative;
+  left: 2%;
+  width: 7%
+}
+
+.zbm2 {
+  position: relative;
+  right: 2%;
+  width: 7%
+}
+
+.zbm3 {
+  position: relative;
+  left: 2%;
+  width: 7%
+}
+
+.ocs1 {
+  position: relative;
+  left: 2%;
+  width: 7%
+}
+
+.ocs2 {
+  position: relative;
+  right: 2%;
+  width: 7%
+}
+
+.ocs3 {
+  position: relative;
+  left: 2%;
+  width: 10%
+}
+
+.cert1 {
+  position: relative;
+  left: 80%;
+  width: 7%
+}
+
+.cert2 {
+  position: relative;
+  right: 80%;
+  width: 7%
+}
+
+.cert3 {
+  position: relative;
+  width: 7%
+}
+
+.cert4 {
+  position: relative;
+  width: 7%
+}
+
+.cert5 {
+  position: relative;
+  right: 2%;
+  left: 2%;
+  width: 7%
+}
+
+.cert6 {
+  position: relative;
+  right: 2%;
+  left: 2%;
+  width: 7%
+}
+
+.pers1 {
+  position: relative;
+  left: 20%;
+  width: 30%
+}
+
+.pers2 {
+  position: relative;
+  left: 2%;
+  width: 60%
+}
+
+.left-arrow {
+  position: relative;
+  width: 3%
+}
+
+.right-arrow {
+  position: relative;
+  width: 3%
+}
+
+.navbar1 {
+  overflow: hidden;
+  right: 45%;
+  /* background-color: #b1d0e0; */
+  position: fixed; /* Set the navbar to fixed position */
+  bottom: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+.navbar2 {
+  overflow: hidden;
+  left: 45%;
+  /* background-color: #b1d0e0; */
+  position: fixed; /* Set the navbar to fixed position */
+  bottom: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+.keywords {
+  position: absolute;
+  right: 10rem;
+  top: 16rem;
+  width: 50%
+}
+
+/* ----------------------------CLASS Selctors------------------------------>
+----------------------------CLASS Selctors------------------------------ */
