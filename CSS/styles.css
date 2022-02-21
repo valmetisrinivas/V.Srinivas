@@ -20,7 +20,7 @@ a:hover {
 
 h1 {
   margin: 0 auto 0 auto;
-  font-family: 'Sacramento', cursive;
+  /* font-family: 'Sacramento', cursive; */
   font-size: 600%;
   color: #052d2e;
 }
@@ -82,7 +82,7 @@ p {
 }
 li {
   margin-top: 5%;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 /* ----------------------------CLASS Selctors------------------------------
 ----------------------------CLASS Selctors------------------------------ */
@@ -149,12 +149,12 @@ li {
 
 .handball-person {
   position: relative;
-  right: 30%;
+  right: 15%;
 }
 
 .jugglery-person {
   position: relative;
-  left: 30%;
+  left: 15%;
 }
 
 .table-image {
@@ -183,7 +183,7 @@ li {
 .table-header {
   color: #052d2e;
   text-align:center;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 .table-width {
