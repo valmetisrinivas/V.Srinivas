@@ -20,7 +20,7 @@ a:hover {
 
 h1 {
   margin: 0 auto 0 auto;
-  /* font-family: 'Sacramento', cursive; */
+  font-family: cursive;
   font-size: 600%;
   color: #052d2e;
 }
@@ -145,6 +145,7 @@ li {
 .heading-pic {
   width: 10%;
   position: relative;
+  border-radius: 50%;
 }
 
 .handball-person {
